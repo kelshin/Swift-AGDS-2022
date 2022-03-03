@@ -75,10 +75,31 @@ func reverseLines(_ line: Int = 0) {
 /// - The expression will be "fully parenthesized" and will consist of + and * on single-digit integers only.
 /// - You can use a helper function. (Do not change the original function header)
 /// - Use Recursion
-/// evaluate("7")                 -> 7
-/// evaluate("(2+2)")             -> 4
-/// evaluate("(1+(2*4))")         -> 9
+/// evaluate("7")                           -> 7
+/// evaluate("(2+2)")                     -> 4
+/// evaluate("(1+(2*4))")              -> 9
 /// evaluate("((1+3)+((1+2)*5))") -> 19
 func evaluate(_ expr: String) -> Int {
-  return 0
+  var i = 0
+  return evaluateHelper(expr, i: &i)
+}
+
+func evaluateHelper(_ expr: String, i: inout Int) -> Int {
+  // base case
+  if Character(expr[i]).isNumber {
+    return Int(expr[i])!
+  } else {
+    i += 1  // skip (
+    let left = evaluateHelper(expr, i: &i)
+    i += 1
+    let op = expr[i]  // + or *
+    i += 1
+    let right = evaluateHelper(expr, i: &i)
+    i += 1   // skip )
+    if op == "+" {
+      return left + right
+    } else {
+      return left * right
+    }
+  }
 }
