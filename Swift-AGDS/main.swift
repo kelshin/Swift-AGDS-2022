@@ -8,7 +8,6 @@
 import Foundation
 
 
-
-rollDiceSum(3, 5)
-
-print(count)
+var arr = [5, 3, 1, 2, 4]
+print(bubbleSort(arr, >))
+//combinations("GOOGLE", 3)

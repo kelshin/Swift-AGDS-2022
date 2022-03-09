@@ -79,3 +79,24 @@ func permutationUniqueHelper(_ word: String, soFar: String = "", _ set: inout Se
     }
   }
 }
+
+func combinations(_ word: String, _ k: Int) {
+  var set = Set<Character>()
+  var result = Set<String>()
+  combinationsHelper(word, k, &set, "", &result)
+  print(result)
+}
+
+func combinationsHelper(_ word: String, _ k: Int, _ unique: inout Set<Character>, _ soFar: String, _ result: inout Set<String>) {
+  if k == 0 {
+    result.insert(soFar)
+  } else {
+    for i in word {
+      if !unique.contains(i) {
+        unique.insert(i)
+        combinationsHelper(word, k - 1, &unique, soFar + String(i), &result)
+        unique.remove(i)
+      }
+    }
+  }
+}
