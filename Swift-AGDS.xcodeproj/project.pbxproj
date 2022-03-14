@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E23792727D6B0E300456314 /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E23792627D6B0E200456314 /* Backtracking.swift */; };
+		4E4455FC27DFDD8B00C42330 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4455FB27DFDD8B00C42330 /* Bag.swift */; };
 		4E62399827D169E70092E0C9 /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E62399727D169E70092E0C9 /* ExhaustiveSearch.swift */; };
 		4E74FE0127D0157900074D21 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74FE0027D0157900074D21 /* main.swift */; };
 		4E74FE0927D015B600074D21 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74FE0827D015B600074D21 /* Recursion.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		4E23792627D6B0E200456314 /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
+		4E4455FB27DFDD8B00C42330 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		4E62399727D169E70092E0C9 /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
 		4E74FDFD27D0157900074D21 /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E74FE0027D0157900074D21 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E4455FA27DFDD7D00C42330 /* DataStructures1 */ = {
+			isa = PBXGroup;
+			children = (
+				4E4455FB27DFDD8B00C42330 /* Bag.swift */,
+			);
+			path = DataStructures1;
+			sourceTree = "<group>";
+		};
 		4E74FDF427D0157900074D21 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 		4E74FDFF27D0157900074D21 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				4E4455FA27DFDD7D00C42330 /* DataStructures1 */,
 				4E98449227D94E7500389B9C /* SearchingSorting */,
 				4E74FE0A27D01AE200074D21 /* Utils */,
 				4E74FE0727D015A600074D21 /* Recursion */,
@@ -170,6 +181,7 @@
 				4E23792727D6B0E300456314 /* Backtracking.swift in Sources */,
 				4E98449627D9533700389B9C /* Sorting.swift in Sources */,
 				4E74FE0927D015B600074D21 /* Recursion.swift in Sources */,
+				4E4455FC27DFDD8B00C42330 /* Bag.swift in Sources */,
 				4E74FE0127D0157900074D21 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
