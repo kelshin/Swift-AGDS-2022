@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2292CA27E27E2000F99933 /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2292C927E27E2000F99933 /* AdjacencyMatrix.swift */; };
+		4E2292CC27E2818E00F99933 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2292CB27E2818E00F99933 /* AdjacencyList.swift */; };
+		4E2292CE27E2856500F99933 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2292CD27E2856500F99933 /* DFS.swift */; };
+		4E2292D027E2856E00F99933 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2292CF27E2856E00F99933 /* BFS.swift */; };
+		4E2292D327E2857F00F99933 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2292D127E2857F00F99933 /* Stack.swift */; };
+		4E2292D427E2857F00F99933 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2292D227E2857F00F99933 /* Queue.swift */; };
 		4E23792727D6B0E300456314 /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E23792627D6B0E200456314 /* Backtracking.swift */; };
 		4E4455FC27DFDD8B00C42330 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4455FB27DFDD8B00C42330 /* Bag.swift */; };
 		4E62399827D169E70092E0C9 /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E62399727D169E70092E0C9 /* ExhaustiveSearch.swift */; };
@@ -30,6 +36,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E2292C927E27E2000F99933 /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
+		4E2292CB27E2818E00F99933 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		4E2292CD27E2856500F99933 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		4E2292CF27E2856E00F99933 /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		4E2292D127E2857F00F99933 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4E2292D227E2857F00F99933 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		4E23792627D6B0E200456314 /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
 		4E4455FB27DFDD8B00C42330 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		4E62399727D169E70092E0C9 /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
@@ -53,10 +65,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E2292C727E27E0300F99933 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				4E2292C827E27E1100F99933 /* Examples */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		4E2292C827E27E1100F99933 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				4E2292C927E27E2000F99933 /* AdjacencyMatrix.swift */,
+				4E2292CB27E2818E00F99933 /* AdjacencyList.swift */,
+				4E2292CD27E2856500F99933 /* DFS.swift */,
+				4E2292CF27E2856E00F99933 /* BFS.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 		4E4455FA27DFDD7D00C42330 /* DataStructures1 */ = {
 			isa = PBXGroup;
 			children = (
 				4E4455FB27DFDD8B00C42330 /* Bag.swift */,
+				4E2292D227E2857F00F99933 /* Queue.swift */,
+				4E2292D127E2857F00F99933 /* Stack.swift */,
 			);
 			path = DataStructures1;
 			sourceTree = "<group>";
@@ -80,6 +113,7 @@
 		4E74FDFF27D0157900074D21 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				4E2292C727E27E0300F99933 /* Graph */,
 				4E4455FA27DFDD7D00C42330 /* DataStructures1 */,
 				4E98449227D94E7500389B9C /* SearchingSorting */,
 				4E74FE0A27D01AE200074D21 /* Utils */,
@@ -176,13 +210,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E98449427D94E8700389B9C /* Searching.swift in Sources */,
+				4E2292D427E2857F00F99933 /* Queue.swift in Sources */,
+				4E2292D327E2857F00F99933 /* Stack.swift in Sources */,
 				4E74FE0C27D01AF700074D21 /* String+DPStringTool.swift in Sources */,
 				4E62399827D169E70092E0C9 /* ExhaustiveSearch.swift in Sources */,
 				4E23792727D6B0E300456314 /* Backtracking.swift in Sources */,
+				4E2292CE27E2856500F99933 /* DFS.swift in Sources */,
 				4E98449627D9533700389B9C /* Sorting.swift in Sources */,
+				4E2292CA27E27E2000F99933 /* AdjacencyMatrix.swift in Sources */,
 				4E74FE0927D015B600074D21 /* Recursion.swift in Sources */,
 				4E4455FC27DFDD8B00C42330 /* Bag.swift in Sources */,
+				4E2292CC27E2818E00F99933 /* AdjacencyList.swift in Sources */,
 				4E74FE0127D0157900074D21 /* main.swift in Sources */,
+				4E2292D027E2856E00F99933 /* BFS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

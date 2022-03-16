@@ -8,18 +8,28 @@
 import Foundation
 
 
-var arr = [5, 3, 1, 2, 4]
-print(arr)
-//print(bubbleSort(arr, >))
-//combinations("GOOGLE", 3)
+adjacencyListDFS()
 
-var nums = Bag<Int>()
-nums.add(item: 1)
-nums.add(item: 2)
-nums.add(item: 3)
+// weighted undirected graph
+//6 8
+//1 2 2
+//1 5 7
+//2 3 2
+//2 4 3
+//2 5 1
+//5 4 7
+//4 3 1
+//4 6 7
 
-for item in nums {
-  print(item)
-}
+// unweigted undirected graph
+//6 8
+//1 2
+//1 5
+//2 3
+//2 4
+//2 5
+//5 4
+//4 3
+//4 6
 
-print(nums)
+
