@@ -8,7 +8,12 @@
 import Foundation
 
 
-adjacencyListDFS()
+var q = [Int]()
+q.remove(at: 0) // dequeue O(n)
+q.append(10)
+
+
+bipartite()
 
 // weighted undirected graph
 //6 8
