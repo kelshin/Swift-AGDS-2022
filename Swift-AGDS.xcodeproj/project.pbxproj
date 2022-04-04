@@ -27,6 +27,7 @@
 		4E8C31FC27FB8CDE001A5086 /* findJudge997.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C31FB27FB8CDE001A5086 /* findJudge997.swift */; };
 		4E8C31FE27FB9063001A5086 /* WhosMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C31FD27FB9063001A5086 /* WhosMyParent.swift */; };
 		4E8C320027FB91E7001A5086 /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C31FF27FB91E7001A5086 /* Diameter.swift */; };
+		4E8C320227FB9F67001A5086 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C320127FB9F67001A5086 /* LCA.swift */; };
 		4E98449427D94E8700389B9C /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98449327D94E8700389B9C /* Searching.swift */; };
 		4E98449627D9533700389B9C /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98449527D9533700389B9C /* Sorting.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		4E8C31FB27FB8CDE001A5086 /* findJudge997.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findJudge997.swift; sourceTree = "<group>"; };
 		4E8C31FD27FB9063001A5086 /* WhosMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMyParent.swift; sourceTree = "<group>"; };
 		4E8C31FF27FB91E7001A5086 /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
+		4E8C320127FB9F67001A5086 /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
 		4E98449327D94E8700389B9C /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		4E98449527D9533700389B9C /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +178,7 @@
 			children = (
 				4E8C31FD27FB9063001A5086 /* WhosMyParent.swift */,
 				4E8C31FF27FB91E7001A5086 /* Diameter.swift */,
+				4E8C320127FB9F67001A5086 /* LCA.swift */,
 			);
 			path = Assignments;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				4E74FE0C27D01AF700074D21 /* String+DPStringTool.swift in Sources */,
 				4E62399827D169E70092E0C9 /* ExhaustiveSearch.swift in Sources */,
 				4E8C31F827FB86B0001A5086 /* CyclicPermutation.swift in Sources */,
+				4E8C320227FB9F67001A5086 /* LCA.swift in Sources */,
 				4E8C31FE27FB9063001A5086 /* WhosMyParent.swift in Sources */,
 				4E23792727D6B0E300456314 /* Backtracking.swift in Sources */,
 				4E8C31FA27FB88AB001A5086 /* RepeatingSequence.swift in Sources */,
