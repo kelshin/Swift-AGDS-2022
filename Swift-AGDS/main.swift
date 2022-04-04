@@ -7,14 +7,7 @@
 
 import Foundation
 
-
-var q = [Int]()
-q.remove(at: 0) // dequeue O(n)
-q.append(10)
-
-
-bipartite()
-
+repeatingSequence()
 // weighted undirected graph
 //6 8
 //1 2 2
