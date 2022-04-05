@@ -7,7 +7,7 @@
 
 import Foundation
 
-repeatingSequence()
+maze()
 // weighted undirected graph
 //6 8
 //1 2 2
