@@ -24,6 +24,7 @@
 		4E74FE0127D0157900074D21 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74FE0027D0157900074D21 /* main.swift */; };
 		4E74FE0927D015B600074D21 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74FE0827D015B600074D21 /* Recursion.swift */; };
 		4E74FE0C27D01AF700074D21 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74FE0B27D01AF700074D21 /* String+DPStringTool.swift */; };
+		4E84E86B27FF7FB5004CEEEE /* TopologicalSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84E86A27FF7FB5004CEEEE /* TopologicalSort.swift */; };
 		4E8C31F827FB86B0001A5086 /* CyclicPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C31F727FB86B0001A5086 /* CyclicPermutation.swift */; };
 		4E8C31FA27FB88AB001A5086 /* RepeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C31F927FB88AB001A5086 /* RepeatingSequence.swift */; };
 		4E8C31FC27FB8CDE001A5086 /* findJudge997.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C31FB27FB8CDE001A5086 /* findJudge997.swift */; };
@@ -66,6 +67,7 @@
 		4E74FE0827D015B600074D21 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
 		4E74FE0B27D01AF700074D21 /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
 		4E74FE0D27D024A600074D21 /* story.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
+		4E84E86A27FF7FB5004CEEEE /* TopologicalSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSort.swift; sourceTree = "<group>"; };
 		4E8C31F727FB86B0001A5086 /* CyclicPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicPermutation.swift; sourceTree = "<group>"; };
 		4E8C31F927FB88AB001A5086 /* RepeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSequence.swift; sourceTree = "<group>"; };
 		4E8C31FB27FB8CDE001A5086 /* findJudge997.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findJudge997.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		4E2292C727E27E0300F99933 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				4E84E86927FF7FA5004CEEEE /* TopologicalSort */,
 				4E0A4ED427FCDD6700B57099 /* FloodFill */,
 				4E8C31F627FB858D001A5086 /* Assignments */,
 				4E2292C827E27E1100F99933 /* Examples */,
@@ -185,6 +188,14 @@
 				4E74FE0B27D01AF700074D21 /* String+DPStringTool.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		4E84E86927FF7FA5004CEEEE /* TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+				4E84E86A27FF7FB5004CEEEE /* TopologicalSort.swift */,
+			);
+			path = TopologicalSort;
 			sourceTree = "<group>";
 		};
 		4E8C31F527FB857E001A5086 /* Assignments */ = {
@@ -291,6 +302,7 @@
 				4E98449627D9533700389B9C /* Sorting.swift in Sources */,
 				4E2292F627E3DB1400F99933 /* ConnectedComponents.swift in Sources */,
 				4E2292CA27E27E2000F99933 /* AdjacencyMatrix.swift in Sources */,
+				4E84E86B27FF7FB5004CEEEE /* TopologicalSort.swift in Sources */,
 				4E33F68B27E91A620025CF74 /* TreeTraversals.swift in Sources */,
 				4E74FE0927D015B600074D21 /* Recursion.swift in Sources */,
 				4E4455FC27DFDD8B00C42330 /* Bag.swift in Sources */,
