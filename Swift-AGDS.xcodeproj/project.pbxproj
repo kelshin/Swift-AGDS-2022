@@ -19,6 +19,7 @@
 		4E2292F827E3DDA900F99933 /* Bipartite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2292F727E3DDA900F99933 /* Bipartite.swift */; };
 		4E23792727D6B0E300456314 /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E23792627D6B0E200456314 /* Backtracking.swift */; };
 		4E33F68B27E91A620025CF74 /* TreeTraversals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33F68A27E91A620025CF74 /* TreeTraversals.swift */; };
+		4E3ABBC72806162D001514F2 /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3ABBC62806162D001514F2 /* IndexPriorityQueue.swift */; };
 		4E4455FC27DFDD8B00C42330 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4455FB27DFDD8B00C42330 /* Bag.swift */; };
 		4E62399827D169E70092E0C9 /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E62399727D169E70092E0C9 /* ExhaustiveSearch.swift */; };
 		4E74FE0127D0157900074D21 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74FE0027D0157900074D21 /* main.swift */; };
@@ -33,6 +34,8 @@
 		4E8C320227FB9F67001A5086 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C320127FB9F67001A5086 /* LCA.swift */; };
 		4E98449427D94E8700389B9C /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98449327D94E8700389B9C /* Searching.swift */; };
 		4E98449627D9533700389B9C /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98449527D9533700389B9C /* Sorting.swift */; };
+		4EC0650B2811F40E000A9557 /* MSTImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0650A2811F40E000A9557 /* MSTImplementation.swift */; };
+		4EC0650D2811F62D000A9557 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0650C2811F62D000A9557 /* UF.swift */; };
 		4ECE5D582804D8FC007BD023 /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE5D572804D8FC007BD023 /* Sushi.swift */; };
 		4ECE5D5A2804DE7E007BD023 /* SushiIterative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE5D592804DE7E007BD023 /* SushiIterative.swift */; };
 		4ECE5D5C2804DF60007BD023 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE5D5B2804DF60007BD023 /* TomatoFarm.swift */; };
@@ -64,6 +67,7 @@
 		4E2292F727E3DDA900F99933 /* Bipartite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bipartite.swift; sourceTree = "<group>"; };
 		4E23792627D6B0E200456314 /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
 		4E33F68A27E91A620025CF74 /* TreeTraversals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTraversals.swift; sourceTree = "<group>"; };
+		4E3ABBC62806162D001514F2 /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
 		4E4455FB27DFDD8B00C42330 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		4E62399727D169E70092E0C9 /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
 		4E74FDFD27D0157900074D21 /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +84,8 @@
 		4E8C320127FB9F67001A5086 /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
 		4E98449327D94E8700389B9C /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		4E98449527D9533700389B9C /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		4EC0650A2811F40E000A9557 /* MSTImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTImplementation.swift; sourceTree = "<group>"; };
+		4EC0650C2811F62D000A9557 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		4ECE5D572804D8FC007BD023 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
 		4ECE5D592804DE7E007BD023 /* SushiIterative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SushiIterative.swift; sourceTree = "<group>"; };
 		4ECE5D5B2804DF60007BD023 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
@@ -139,6 +145,15 @@
 			path = Trees;
 			sourceTree = "<group>";
 		};
+		4E3ABBC528061623001514F2 /* DataStructures2 */ = {
+			isa = PBXGroup;
+			children = (
+				4E3ABBC62806162D001514F2 /* IndexPriorityQueue.swift */,
+				4EC0650C2811F62D000A9557 /* UF.swift */,
+			);
+			path = DataStructures2;
+			sourceTree = "<group>";
+		};
 		4E4455FA27DFDD7D00C42330 /* DataStructures1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +183,8 @@
 		4E74FDFF27D0157900074D21 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				4EC065092811F3FF000A9557 /* Greedy */,
+				4E3ABBC528061623001514F2 /* DataStructures2 */,
 				4E33F68927E91A520025CF74 /* Trees */,
 				4E2292C727E27E0300F99933 /* Graph */,
 				4E4455FA27DFDD7D00C42330 /* DataStructures1 */,
@@ -239,6 +256,14 @@
 			path = SearchingSorting;
 			sourceTree = "<group>";
 		};
+		4EC065092811F3FF000A9557 /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				4EC0650A2811F40E000A9557 /* MSTImplementation.swift */,
+			);
+			path = Greedy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -299,6 +324,7 @@
 			files = (
 				4E98449427D94E8700389B9C /* Searching.swift in Sources */,
 				4E2292D427E2857F00F99933 /* Queue.swift in Sources */,
+				4EC0650D2811F62D000A9557 /* UF.swift in Sources */,
 				4ECE5D5E2804E6F2007BD023 /* Bridges.swift in Sources */,
 				4E8C320027FB91E7001A5086 /* Diameter.swift in Sources */,
 				4E8C31FC27FB8CDE001A5086 /* findJudge997.swift in Sources */,
@@ -309,11 +335,13 @@
 				4E8C31F827FB86B0001A5086 /* CyclicPermutation.swift in Sources */,
 				4E8C320227FB9F67001A5086 /* LCA.swift in Sources */,
 				4E8C31FE27FB9063001A5086 /* WhosMyParent.swift in Sources */,
+				4EC0650B2811F40E000A9557 /* MSTImplementation.swift in Sources */,
 				4ECE5D5C2804DF60007BD023 /* TomatoFarm.swift in Sources */,
 				4E23792727D6B0E300456314 /* Backtracking.swift in Sources */,
 				4E8C31FA27FB88AB001A5086 /* RepeatingSequence.swift in Sources */,
 				4E2292CE27E2856500F99933 /* DFS.swift in Sources */,
 				4E98449627D9533700389B9C /* Sorting.swift in Sources */,
+				4E3ABBC72806162D001514F2 /* IndexPriorityQueue.swift in Sources */,
 				4E2292F627E3DB1400F99933 /* ConnectedComponents.swift in Sources */,
 				4E2292CA27E27E2000F99933 /* AdjacencyMatrix.swift in Sources */,
 				4E84E86B27FF7FB5004CEEEE /* TopologicalSort.swift in Sources */,
