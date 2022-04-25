@@ -34,6 +34,7 @@
 		4E8C320227FB9F67001A5086 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C320127FB9F67001A5086 /* LCA.swift */; };
 		4E98449427D94E8700389B9C /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98449327D94E8700389B9C /* Searching.swift */; };
 		4E98449627D9533700389B9C /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98449527D9533700389B9C /* Sorting.swift */; };
+		4EBF2DA128174A06009ED99F /* Dijkstras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF2DA028174A06009ED99F /* Dijkstras.swift */; };
 		4EC0650B2811F40E000A9557 /* MSTImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0650A2811F40E000A9557 /* MSTImplementation.swift */; };
 		4EC0650D2811F62D000A9557 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0650C2811F62D000A9557 /* UF.swift */; };
 		4ECE5D582804D8FC007BD023 /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE5D572804D8FC007BD023 /* Sushi.swift */; };
@@ -84,6 +85,7 @@
 		4E8C320127FB9F67001A5086 /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
 		4E98449327D94E8700389B9C /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		4E98449527D9533700389B9C /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		4EBF2DA028174A06009ED99F /* Dijkstras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstras.swift; sourceTree = "<group>"; };
 		4EC0650A2811F40E000A9557 /* MSTImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTImplementation.swift; sourceTree = "<group>"; };
 		4EC0650C2811F62D000A9557 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		4ECE5D572804D8FC007BD023 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		4E74FDFF27D0157900074D21 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				4EBF2D9F281749EA009ED99F /* ShortestPath */,
 				4EC065092811F3FF000A9557 /* Greedy */,
 				4E3ABBC528061623001514F2 /* DataStructures2 */,
 				4E33F68927E91A520025CF74 /* Trees */,
@@ -254,6 +257,14 @@
 				4E98449527D9533700389B9C /* Sorting.swift */,
 			);
 			path = SearchingSorting;
+			sourceTree = "<group>";
+		};
+		4EBF2D9F281749EA009ED99F /* ShortestPath */ = {
+			isa = PBXGroup;
+			children = (
+				4EBF2DA028174A06009ED99F /* Dijkstras.swift */,
+			);
+			path = ShortestPath;
 			sourceTree = "<group>";
 		};
 		4EC065092811F3FF000A9557 /* Greedy */ = {
@@ -337,6 +348,7 @@
 				4E8C31FE27FB9063001A5086 /* WhosMyParent.swift in Sources */,
 				4EC0650B2811F40E000A9557 /* MSTImplementation.swift in Sources */,
 				4ECE5D5C2804DF60007BD023 /* TomatoFarm.swift in Sources */,
+				4EBF2DA128174A06009ED99F /* Dijkstras.swift in Sources */,
 				4E23792727D6B0E300456314 /* Backtracking.swift in Sources */,
 				4E8C31FA27FB88AB001A5086 /* RepeatingSequence.swift in Sources */,
 				4E2292CE27E2856500F99933 /* DFS.swift in Sources */,
